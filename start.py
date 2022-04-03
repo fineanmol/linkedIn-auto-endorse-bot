@@ -20,11 +20,11 @@ SCROLL_PAUSE_TIME = 1.0
 # firefox_profile = FirefoxProfile()
 # ## Disable images
 # firefox_profile.set_preference('permissions.default.image', 2)
-CHROMEDRIVER_PATH = r'/Volumes/nikhil_t7/Python/Bots/chromedriver'
+CHROMEDRIVER_PATH = r'/Volumes/fineanmol/Python/Bots/chromedriver'
 driver = webdriver.Chrome(CHROMEDRIVER_PATH)
 # cookies
 
-cookies_file_path = '/Volumes/nikhil_t7/Python/Bots/LinkedIn-2/cookies.pkl'
+cookies_file_path = '/Volumes/fineanmol/Python/Bots/LinkedIn-2/cookies.pkl'
 
 
 def save_cookie(path):
